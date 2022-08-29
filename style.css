@@ -105,6 +105,7 @@ h3.name {
     opacity: .5;
 }
 
+
 /* responsive versi mobile */ 
 @media screen and (max-width:578px){
     
@@ -124,6 +125,16 @@ h3.name {
         height: max-content;
         justify-self: flex-end;
         gap: 2px;
+        cursor: pointer;
+    }
+    .humberger .span-1.tambah{
+        transform: rotate(45deg) translate(10px,10px);
+    }
+    .humberger .span-2.tambah{
+        display: none;
+    }
+    .humberger .span-3.tambah{
+        transform: rotate(-45deg) translate(-5px,4px);
     }
 
 }
